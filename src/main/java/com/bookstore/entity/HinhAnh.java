@@ -17,6 +17,7 @@ public class HinhAnh {
     private boolean icon;
     @Column(name = "link")
     private String link;
+    
     @Column(name = "du_lieu_anh",columnDefinition = "LONGTEXT")
     @Lob //dữ liệu lớn
     private String duLieuAnh;
