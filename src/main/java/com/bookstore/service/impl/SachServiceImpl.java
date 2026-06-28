@@ -8,8 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class SachServiceImpl
-        implements SachService {
+public class SachServiceImpl implements SachService {
 
     private final SachRepository sachRepository;
 
