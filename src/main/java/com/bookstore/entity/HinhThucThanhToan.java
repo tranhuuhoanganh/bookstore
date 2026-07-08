@@ -19,7 +19,7 @@ public class HinhThucThanhToan {
     @Column(name = "chi_phi_giao_hang")
     private double chiPhiThanhToan;
     @OneToMany(
-            mappedBy = "maDonHang",
+            mappedBy = "hinhThucThanhToan",
             fetch = FetchType.LAZY,cascade = {
             CascadeType.PERSIST,CascadeType.MERGE,CascadeType.DETACH,CascadeType.REFRESH
     })
